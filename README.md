@@ -6,7 +6,7 @@
 
 2. To support the use of Generalized Random Forests (GRF) , install econML from https://github.com/microsoft/EconML.
 
-3. Tensorflow 2.4.1 and keras 2.4.3 are used in this experiment.
+3. Tensorflow 2.14.0 is used in this experiment.
 
 4. The directory structure is shown as follows.
 

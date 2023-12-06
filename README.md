@@ -2,6 +2,23 @@
 # NOTE: WE ARE PREPARING AND CLEANING THE CODE. THE CODE WILL BE READY BY 2023/12/09. THANKS.
 
 
+# Improve ROI with Causal Learning and Conformal Prediction
+
+The code to replicate the offline results for paper "**Improve ROI with Causal Learning and Conformal Prediction**".
+
+## **Reproduction Instructions**
+
+#### ***Section V. Experiments --> A. Offline Simulation***
+
+Steps to reproduce the results:
+```
+1. Add your work directory to "homePath" in generateSimulationData.R under Code/Data_generation folder.
+2. Run generateSimulationData.R.
+3. Follow the instructions under each model's folder for training and prediction; run budget_allocation.py for each model.
+4. Run Simulation_analysis.py under Code/Evaluation folder.
+
+
+
 1. To support the use of Area under Uplift Curve (AUUC), install causalML from https://causalml.readthedocs.io/en/latest/installation.html.
 
 2. To support the use of Generalized Random Forests (GRF) , install econML from https://github.com/microsoft/EconML.

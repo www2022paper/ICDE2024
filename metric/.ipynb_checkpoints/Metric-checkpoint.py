@@ -5,7 +5,6 @@ from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
 
 
-
 def get_uplift_model_aucc(t, y_reward, y_cost, roi_pred, quantile=20, title='AUCC'):
 
     sorted_index = np.argsort(roi_pred)[::-1]

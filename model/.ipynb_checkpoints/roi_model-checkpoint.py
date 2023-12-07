@@ -64,6 +64,7 @@ def get_direct_rank_model():
 
     final_model = Model(inputs=[feature_input, treated_input, reward_input, cost_input], outputs=q_output)
     
+    
     p_output = tf.exp(q_output) * treated_input / tf.reduce_sum(tf.exp(q_output) * treated_input) + tf.exp(q_output) * (1 - treated_input) / tf.reduce_sum(tf.exp(q_output) * (1 - treated_input))
     
     r_output = tf.reduce_sum(reward_input * p_output * (2 * treated_input - 1))

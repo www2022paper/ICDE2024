@@ -9,7 +9,6 @@ The code to replicate the offline results in **Section V. Experiments --> A. Off
 |     |-----【InNo】xxx.ipynb       # Various benchmark methods when the setting is Insufficient data and No covariant shift.
 |     |-----【SuCo】xxx.ipynb       # Various benchmark methods when the setting is Sufficient data and Covariant shift.
 |     |-----【SuNo】xxx.ipynb       # Various benchmark methods when the setting is Sufficient data and No covariant shift.
-|     |-----【SuNo】xxx.ipynb       # Various benchmark methods when the setting is Sufficient data and No covariant shift.
 |     |-----【Offline Evaluation】xxx.ipynb       # Notebook codes that ultimately generate Fig.5 and Table 1.
 |     |----- Fig.1【a】and Fig.1【b】.ipynb       # Notebook codes that generate Fig.1a and Fig.1b.
 |-----figure

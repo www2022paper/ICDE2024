@@ -36,6 +36,9 @@ The code to replicate the offline results in **Section V. Experiments --> A. Off
 ### ***Setup Details***
 ```
 1. Tensorflow 2.14.0 is used in this experiment.
-2. To support the use of Generalized Random Forests (GRF) , install econML from https://github.com/microsoft/EconML.
+2. Neural network ran on a machine with a GPU RTX 4090(24GB) and 90GB memory.
+3. To support the use of Generalized Random Forests (GRF) , install econML from https://github.com/microsoft/EconML.
+4. GRF ran on a machine with 32 vCPU (AMD EPYC 7742 64-Core Processor) and 96GB memory.
+
 ```
 

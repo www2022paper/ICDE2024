@@ -28,7 +28,7 @@ Steps to reproduce the results:
 4. The directory structure is shown as follows.
 
 |-----code
-|     |-----uplift_model_criteo_finalmodel.ipynb       # A demo to run the model for predicting CATE in CRITEO-UPLIFT v2
+|     |-----【InCo】xxx.ipynb       # Various benchmark methods when the setting is Incosufficient data and Covariant shift.
 |     |-----roi_model_criteo_finalmodel_1.ipynb        # A demo to run the model for predicting ROI in CRITEO-UPLIFT v2
 |     |-----roi_model_criteo_finalmodel_2.ipynb        # A demo to run the model for predicting Marginal Utilities in CRITEO-UPLIFT v2
 |     |-----marketing_data_code                        # A demo to run the model for predicting CATE/ROI/Marginal Utilities in Marketing data

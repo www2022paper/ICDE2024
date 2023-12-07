@@ -1,7 +1,3 @@
-
-## NOTE: WE ARE PREPARING AND CLEANING THE CODE. THE CODE WILL BE READY BY 2023/12/09. THANKS.
-
-
 # Improve ROI with Causal Learning and Conformal Prediction
 
 

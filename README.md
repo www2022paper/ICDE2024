@@ -28,10 +28,13 @@ Steps to reproduce the results:
 4. The directory structure is shown as follows.
 
 |-----code
-|     |-----【InCo】xxx.ipynb       # Various benchmark methods when the setting is **Incosufficient** data and **Co**variant shift.
-|     |-----roi_model_criteo_finalmodel_1.ipynb        # A demo to run the model for predicting ROI in CRITEO-UPLIFT v2
-|     |-----roi_model_criteo_finalmodel_2.ipynb        # A demo to run the model for predicting Marginal Utilities in CRITEO-UPLIFT v2
-|     |-----marketing_data_code                        # A demo to run the model for predicting CATE/ROI/Marginal Utilities in Marketing data
+|     |-----【InCo】xxx.ipynb       # Various benchmark methods when the setting is Insufficient data and Covariant shift.
+|     |-----【InNo】xxx.ipynb       # Various benchmark methods when the setting is Insufficient data and No covariant shift.
+|     |-----【SuCo】xxx.ipynb       # Various benchmark methods when the setting is Sufficient data and Covariant shift.
+|     |-----【SuNo】xxx.ipynb       # Various benchmark methods when the setting is Sufficient data and No covariant shift.
+|     |-----【SuNo】xxx.ipynb       # Various benchmark methods when the setting is Sufficient data and No covariant shift.
+|     |-----【Offline Evaluation】xxx.ipynb       # Notebook codes that ultimately generate Fig.5 and Table 1.
+|     |----- Fig.1【a】and Fig.1【b】.ipynb       # Notebook codes that generate Fig.1a and Fig.1b.
 |-----metric
 |     |-----Metric.py                                  # The evaluation metrics
 |-----model

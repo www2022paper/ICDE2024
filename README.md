@@ -10,12 +10,7 @@ The code to replicate the offline results for paper "**Improve ROI with Causal L
 
 #### ***Section V. Experiments --> A. Offline Simulation***
 
-Steps to reproduce the results:
-```
-1. Add your work directory to "homePath" in generateSimulationData.R under Code/Data_generation folder.
-2. Run generateSimulationData.R.
-3. Follow the instructions under each model's folder for training and prediction; run budget_allocation.py for each model.
-4. Run Simulation_analysis.py under Code/Evaluation folder.
+
 
 
 
@@ -25,8 +20,8 @@ Steps to reproduce the results:
 
 3. Tensorflow 2.14.0 is used in this experiment.
 
-4. The directory structure is shown as follows.
-
+### ***Directory Structure***
+```
 |-----code
 |     |-----【InCo】xxx.ipynb       # Various benchmark methods when the setting is Insufficient data and Covariant shift.
 |     |-----【InNo】xxx.ipynb       # Various benchmark methods when the setting is Insufficient data and No covariant shift.
@@ -35,14 +30,18 @@ Steps to reproduce the results:
 |     |-----【SuNo】xxx.ipynb       # Various benchmark methods when the setting is Sufficient data and No covariant shift.
 |     |-----【Offline Evaluation】xxx.ipynb       # Notebook codes that ultimately generate Fig.5 and Table 1.
 |     |----- Fig.1【a】and Fig.1【b】.ipynb       # Notebook codes that generate Fig.1a and Fig.1b.
+|-----figure
+|     |-----xxx.pdf                 # The images resulting from the code in the aforementioned 'code' directory.
+|     |-----xxx.csv                 # The intermediate results produced by the code in the 'code' directory, used for calculating AUCC and plotting.
 |-----metric
-|     |-----Metric.py                                  # The evaluation metrics AUCC
+|     |-----Metric.py               # The evaluation metrics: AUCC
 |-----model
-|     |-----uplift_model.py                            # The model to predict CATE
-|     |-----roi_model.py                               # The model to predict ROI
-|     |-----mt_roi_model.py                           
+|     |-----uplift_model.py         # The model to predict CATE
+|     |-----roi_model.py            # The model to predict ROI
+|-----model_file
+|     |-----xxx                     # Save the model files trained by various benchmark methods.       
 |-----README.txt
-
+```
 5. Download the dataset named CRITEO-UPLIFT v2 from https://ailab.criteo.com/criteo-uplift-prediction-dataset/. You can put this dataset in the data directory, and rename it as "criteo-uplift-v2.1.csv". By this way, you can run the demo in the code directory based on this dataset.
 
-6. Due to data privacy, the real business marketing data used in this experiment is not provided. There may be multiple notebook files in the "code/marketing_data_code" directory, which represent the training demos of different models.
+

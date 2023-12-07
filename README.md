@@ -4,23 +4,9 @@
 
 # Improve ROI with Causal Learning and Conformal Prediction
 
-The code to replicate the offline results for paper "**Improve ROI with Causal Learning and Conformal Prediction**".
-
-## **Reproduction Instructions**
-
-#### ***Section V. Experiments --> A. Offline Simulation***
-
-
-
-
-
-1. To support the use of Area under Uplift Curve (AUUC), install causalML from https://causalml.readthedocs.io/en/latest/installation.html.
-
-2. To support the use of Generalized Random Forests (GRF) , install econML from https://github.com/microsoft/EconML.
-
-3. Tensorflow 2.14.0 is used in this experiment.
 
 ### ***Directory Structure***
+The code to replicate the offline results in **Section V. Experiments --> A. Offline Simulation**
 ```
 |-----code
 |     |-----【InCo】xxx.ipynb       # Various benchmark methods when the setting is Insufficient data and Covariant shift.
@@ -42,6 +28,19 @@ The code to replicate the offline results for paper "**Improve ROI with Causal L
 |     |-----xxx                     # Save the model files trained by various benchmark methods.       
 |-----README.txt
 ```
-5. Download the dataset named CRITEO-UPLIFT v2 from https://ailab.criteo.com/criteo-uplift-prediction-dataset/. You can put this dataset in the data directory, and rename it as "criteo-uplift-v2.1.csv". By this way, you can run the demo in the code directory based on this dataset.
 
+
+### ***Public Dataset***
+```
+1. Dataset name: CRITEO-UPLIFT v2
+2. Download link: https://ailab.criteo.com/criteo-uplift-prediction-dataset/, rename it as "criteo-uplift-v2.1.csv"
+3. Make a "data" directory, and put this dataset in the data directory.
+```
+
+
+### ***Setup Details***
+```
+1. Tensorflow 2.14.0 is used in this experiment.
+2. To support the use of Generalized Random Forests (GRF) , install econML from https://github.com/microsoft/EconML.
+```
 

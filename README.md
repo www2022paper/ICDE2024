@@ -36,7 +36,7 @@ Steps to reproduce the results:
 |     |-----【Offline Evaluation】xxx.ipynb       # Notebook codes that ultimately generate Fig.5 and Table 1.
 |     |----- Fig.1【a】and Fig.1【b】.ipynb       # Notebook codes that generate Fig.1a and Fig.1b.
 |-----metric
-|     |-----Metric.py                                  # The evaluation metrics
+|     |-----Metric.py                                  # The evaluation metrics AUCC
 |-----model
 |     |-----uplift_model.py                            # The model to predict CATE
 |     |-----roi_model.py                               # The model to predict ROI

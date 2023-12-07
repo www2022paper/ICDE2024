@@ -20,7 +20,7 @@ The code to replicate the offline results in **Section V. Experiments --> A. Off
 |     |-----uplift_model.py         # The model to predict CATE
 |     |-----roi_model.py            # The model to predict ROI
 |-----model_file
-|     |-----xxx                     # Save the model files trained by various benchmark methods.       
+|     |-----xxx                     # Saved model files trained by various benchmark methods.       
 |-----README.txt
 ```
 

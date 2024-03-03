@@ -1,7 +1,8 @@
 # Improve ROI with Causal Learning and Conformal Prediction
 
+### ***UPDATED ON 2024.03.04 ***  
 
-### ***Directory Structure***  UPDATED ON 2024.03.04
+### ***Directory Structure***  
 The code to replicate the offline results in **Section V. Experiments --> A. Offline Test B. Ablation Study**
 ```
 

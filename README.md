@@ -2,15 +2,12 @@
 
 
 ### ***Directory Structure***
-The code to replicate the offline results in **Section V. Experiments --> A. Offline Simulation**
+The code to replicate the offline results in **Section V. Experiments --> A. Offline Test B. Ablation Study**
 ```
 |-----code
-|     |-----【InCo】xxx.ipynb       # Various benchmark methods when the setting is Insufficient data and Covariant shift.
-|     |-----【InNo】xxx.ipynb       # Various benchmark methods when the setting is Insufficient data and No covariant shift.
-|     |-----【SuCo】xxx.ipynb       # Various benchmark methods when the setting is Sufficient data and Covariant shift.
-|     |-----【SuNo】xxx.ipynb       # Various benchmark methods when the setting is Sufficient data and No covariant shift.
-|     |-----【Offline Evaluation】xxx.ipynb       # Notebook codes that ultimately generate Fig.5 and Table 1.
-|     |----- Fig.1【a】and Fig.1【b】.ipynb       # Notebook codes that generate Fig.1a and Fig.1b.
+|     |----- code_Criteo       # Various benchmark methods when the dataset is CRITEO-UPLIFT v2.
+|     |----- code_MT           # Various benchmark methods when the dataset is Meituan-LIFT.
+|     |----- code_Ali          # Various benchmark methods when the dataset is Alibaba-LIFT.
 |-----figure
 |     |-----xxx.pdf                 # The images resulting from the code in the aforementioned 'code' directory.
 |     |-----xxx.csv                 # The intermediate results produced by the code in the 'code' directory, used for calculating AUCC and plotting.

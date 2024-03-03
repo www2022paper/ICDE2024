@@ -1,13 +1,13 @@
 # Improve ROI with Causal Learning and Conformal Prediction
 
 
-### ***Directory Structure***
+### ***Directory Structure***  UPDATED ON 2024.03.04
 The code to replicate the offline results in **Section V. Experiments --> A. Offline Test B. Ablation Study**
 ```
-|-----code
-|     |----- code_Criteo       # Various benchmark methods when the dataset is CRITEO-UPLIFT v2.
-|     |----- code_MT           # Various benchmark methods when the dataset is Meituan-LIFT.
-|     |----- code_Ali          # Various benchmark methods when the dataset is Alibaba-LIFT.
+
+|----- code_Criteo       # Various benchmark methods when the dataset is CRITEO-UPLIFT v2.
+|----- code_MT           # Various benchmark methods when the dataset is Meituan-LIFT.
+|----- code_Ali          # Various benchmark methods when the dataset is Alibaba-LIFT.
 |-----figure
 |     |-----xxx.pdf                 # The images resulting from the code in the aforementioned 'code' directory.
 |     |-----xxx.csv                 # The intermediate results produced by the code in the 'code' directory, used for calculating AUCC and plotting.

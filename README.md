@@ -25,11 +25,15 @@ The code to replicate the offline results in **Section V. Experiments --> A. Off
 ```
 
 
-### ***Public Dataset***
+### ***Three Real-world Public Industrial Dataset***
 ```
-1. Dataset name: CRITEO-UPLIFT v2
-2. Download link: https://ailab.criteo.com/criteo-uplift-prediction-dataset/, rename it as "criteo-uplift-v2.1.csv"
-3. Make a "data" directory, and put this dataset in the data directory.
+1a. Dataset name: CRITEO-UPLIFT v2
+    Download link: https://ailab.criteo.com/criteo-uplift-prediction-dataset/, rename it as "criteo-uplift-v2.1.csv"
+1b. Dataset name: Meituan-LIFT
+    Download link: https://github.com/MTDJDSP/MT-LIFT, rename it as "/MT-LIFT/train.csv"
+1c. Dataset name: Alibaba-LIFT
+    Download link: https://tianchi.aliyun.com/dataset/94883, rename it as "Alibaba-lift.csv"
+2. Make a "data" directory, and put these three datasets in the data directory.
 ```
 
 
